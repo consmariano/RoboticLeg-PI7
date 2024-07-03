@@ -16,6 +16,7 @@
 tpr_Data tpr_program[MAX_PROGRAM_LINES];
 
 void tpr_storeProgram(char* filename) {
+  printf("Iniciando leitura do arquivo GCode: %s\n", filename);
   FILE *file = fopen(filename, "r");
   if (!file) {
     perror("Erro ao abrir o arquivo.");
@@ -30,13 +31,14 @@ void tpr_storeProgram(char* filename) {
         if (gcode.has_x && gcode.has_y) {
             tpr_program[line_index].x = gcode.x;
             tpr_program[line_index].y = gcode.y;
-            printf("Linha %d: x = %f, y = %f, z = %f\n", line_index, gcode.x, gcode.y, gcode.z);
+            printf("Linha %d: x = %f, y = %f\n", line_index, gcode.x, gcode.y);
             line_index++;
         }
     }
 
     fclose(file);
-
+    printf("Leitura do arquivo GCode concluída\n");
+    
     /*int line = 0;
     float x, y;
     char* token;

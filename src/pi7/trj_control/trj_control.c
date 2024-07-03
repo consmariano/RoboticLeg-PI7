@@ -32,6 +32,11 @@ void tcl_generateSetpoint() {
   int step = tst_getStep();
 
 
+  // Adiciona uma mensagem indicando que a função foi chamada
+  //printf("Entrando em tcl_generateSetpoint\n");
+  //fflush(stdout);
+
+
   if (tcl_status != STATUS_RUNNING) {
     return;
   }
@@ -55,6 +60,10 @@ void tcl_generateSetpoint() {
       tst_setDeltaX(deltaX); 
       tst_setDeltaY(deltaY);
 
+      printf("Linha 1: x = %f, y = %f\n", pt1x, pt1y);
+      printf("Linha 2: x = %f, y = %f\n", pt2x, pt2y);
+      fflush(stdout);
+
   } else {
       deltaX = tst_getDeltaX();
       deltaY = tst_getDeltaY();  
@@ -67,6 +76,7 @@ void tcl_generateSetpoint() {
   toPic.setPoint2 = interpolatedY;
 
   printf("Step: %d, pt1x: %f, pt1y: %f, deltaX: %f, deltaY: %f, interpolatedX: %f, interpolatedY: %f\n", step, pt1x, pt1y, deltaX, deltaY, interpolatedX, interpolatedY);
+  fflush(stdout);
 
   //toPic.setPoint3 = line.z;
   xQueueSend(qCommPIC, &toPic, portMAX_DELAY);

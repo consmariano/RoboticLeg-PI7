@@ -6,7 +6,7 @@
 GCode parse_gcode(const char *line) {
     GCode gcode = {0};
 
-    char *token = strtok(line, " ");
+    char *token = strtok((char *)line, " ");
     while (token != NULL) {
         if (token[0] == 'N') {
             gcode.line_number = atoi(&token[1]);
