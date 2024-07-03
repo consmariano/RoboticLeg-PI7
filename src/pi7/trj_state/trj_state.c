@@ -30,6 +30,10 @@ float tst_getY() {
 	return tst_y;
 } // tst_getY
 
+float tst_getZ() {
+    return tst_z;
+} // tst_getZ
+
 void tst_setX(float x) {
 	tst_x = x;
 } // tst_setX
@@ -37,6 +41,10 @@ void tst_setX(float x) {
 void tst_setY(float y) {
 	tst_y = y;
 } // tst_setY
+
+void tst_setZ(float z) {
+    tst_z = z;
+} // tst_setZ
 
 // Funções para delta e step
 float tst_getDeltaX() {
