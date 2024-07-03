@@ -12,9 +12,22 @@
 tpr_Data tpr_program[MAX_PROGRAM_LINES];
 
 void tpr_storeProgram(char* texto) {
+	int line = 0;
+    float x, y, z;
+    char* token;
+    char* rest = texto;
 
-	// TODO: implementar
+    // Analisa o texto linha por linha
+    while ((token = strtok_r(rest, "\n", &rest)) && line < MAX_PROGRAM_LINES) {
+        // Analisa cada linha para x, y, z
+        if (sscanf(token, "%f %f %f", &x, &y, &z) == 3) {
+            tpr_program[line].x = x;
+            tpr_program[line].y = y;
+            tpr_program[line].z = z;
+            line++;
+        }
   
+	}
 } // tpr_storeProgram
 
 tpr_Data tpr_getLine(int line) {

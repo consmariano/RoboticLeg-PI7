@@ -21,28 +21,65 @@
 int tcl_status;
 extern xQueueHandle qCommPIC;
 
+#define NUM_STEPS 20
+
 void tcl_generateSetpoint() {
-
-  // TODO: implementar
-
   int currLine;
-  tpr_Data line;
+  tpr_Data line1, line2;
   pic_Data toPic;
+  float pt1x, pt1y, pt2x, pt2y;
+  float deltaX, deltaY;
+  int step = tst_getStep();
+
 
   if (tcl_status != STATUS_RUNNING) {
     return;
   }
 
-  currLine = tst_getCurrentLine();
-  printf("CurrLine %d\n", currLine);
-  line = tpr_getLine(currLine);
-  toPic.setPoint1 = line.x;
-  toPic.setPoint2 = line.y;
-  toPic.setPoint3 = line.z;
+  if (step == 0) {
+      currLine = tst_getCurrentLine();
+      printf("CurrLine %d\n", currLine);
+      line1 = tpr_getLine(currLine);
+      currLine++;
+      tst_setCurrentLine(currLine);
+      line2 = tpr_getLine(currLine);
+
+      pt1x = line1.x;
+      pt1y = line1.y;
+      pt2x = line2.x;
+      pt2y = line2.y;
+
+      deltaX = (line2.x - line1.x) / NUM_STEPS;
+      deltaY = (line2.y - line1.y) / NUM_STEPS;
+      
+      tst_setDeltaX(deltaX); 
+      tst_setDeltaY(deltaY);
+
+  } else {
+      deltaX = tst_getDeltaX();
+      deltaY = tst_getDeltaY();  
+  }
+
+  float interpolatedX = pt1x + step * deltaX;
+  float interpolatedY = pt1y + step * deltaY;
+
+  toPic.setPoint1 = interpolatedX;
+  toPic.setPoint2 = interpolatedY;
+
+  printf("Step: %d, pt1x: %f, pt1y: %f, deltaX: %f, deltaY: %f, interpolatedX: %f, interpolatedY: %f\n", step, pt1x, pt1y, deltaX, deltaY, interpolatedX, interpolatedY);
+
+  //toPic.setPoint3 = line.z;
   xQueueSend(qCommPIC, &toPic, portMAX_DELAY);
   currLine++;
-  tst_setCurrentLine(currLine);
+
+  //tst_setCurrentLine(currLine);
+  if (step == NUM_STEPS) {
+    step = 0;
+  }
+
+  tst_setStep(step);
 } // trj_generateSetpoint
+
 
 void tcl_processCommand(tcl_Data data) {
 
