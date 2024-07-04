@@ -2392,6 +2392,30 @@ pi7/command_interpreter/command_interpreter.c.s:
 	cd /home/consmariano/PicoW-pi7/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Picow-pi7.dir/build.make src/CMakeFiles/Picow-pi7.dir/pi7/command_interpreter/command_interpreter.c.s
 .PHONY : pi7/command_interpreter/command_interpreter.c.s
 
+pi7/gcode_parser/gcode_parser.obj: pi7/gcode_parser/gcode_parser.c.obj
+.PHONY : pi7/gcode_parser/gcode_parser.obj
+
+# target to build an object file
+pi7/gcode_parser/gcode_parser.c.obj:
+	cd /home/consmariano/PicoW-pi7/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Picow-pi7.dir/build.make src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj
+.PHONY : pi7/gcode_parser/gcode_parser.c.obj
+
+pi7/gcode_parser/gcode_parser.i: pi7/gcode_parser/gcode_parser.c.i
+.PHONY : pi7/gcode_parser/gcode_parser.i
+
+# target to preprocess a source file
+pi7/gcode_parser/gcode_parser.c.i:
+	cd /home/consmariano/PicoW-pi7/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Picow-pi7.dir/build.make src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.i
+.PHONY : pi7/gcode_parser/gcode_parser.c.i
+
+pi7/gcode_parser/gcode_parser.s: pi7/gcode_parser/gcode_parser.c.s
+.PHONY : pi7/gcode_parser/gcode_parser.s
+
+# target to generate assembly for a file
+pi7/gcode_parser/gcode_parser.c.s:
+	cd /home/consmariano/PicoW-pi7/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Picow-pi7.dir/build.make src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.s
+.PHONY : pi7/gcode_parser/gcode_parser.c.s
+
 pi7/trj_control/trj_control.obj: pi7/trj_control/trj_control.c.obj
 .PHONY : pi7/trj_control/trj_control.obj
 
@@ -2755,6 +2779,9 @@ help:
 	@echo "... pi7/command_interpreter/command_interpreter.obj"
 	@echo "... pi7/command_interpreter/command_interpreter.i"
 	@echo "... pi7/command_interpreter/command_interpreter.s"
+	@echo "... pi7/gcode_parser/gcode_parser.obj"
+	@echo "... pi7/gcode_parser/gcode_parser.i"
+	@echo "... pi7/gcode_parser/gcode_parser.s"
 	@echo "... pi7/trj_control/trj_control.obj"
 	@echo "... pi7/trj_control/trj_control.i"
 	@echo "... pi7/trj_control/trj_control.s"

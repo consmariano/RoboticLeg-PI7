@@ -1,3 +1,10 @@
 {
-    "cmake.sourceDirectory": "/home/consmariano/PicoW-pi7/PicoW-pi7"
+    "cmake.sourceDirectory": "/home/consmariano/PicoW-pi7/PicoW-pi7",
+    "files.associations": {
+        "*.CPP": "c",
+        "freertos.h": "c",
+        "queue.h": "c",
+        "trj_program.h": "c",
+        "string.h": "c"
+    }
 }

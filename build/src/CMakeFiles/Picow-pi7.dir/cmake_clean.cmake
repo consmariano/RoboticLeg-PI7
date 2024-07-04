@@ -190,6 +190,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Picow-pi7.dir/pi7/comm_pic/comm_pic.c.obj.d"
   "CMakeFiles/Picow-pi7.dir/pi7/command_interpreter/command_interpreter.c.obj"
   "CMakeFiles/Picow-pi7.dir/pi7/command_interpreter/command_interpreter.c.obj.d"
+  "CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj"
+  "CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj.d"
   "CMakeFiles/Picow-pi7.dir/pi7/trj_control/trj_control.c.obj"
   "CMakeFiles/Picow-pi7.dir/pi7/trj_control/trj_control.c.obj.d"
   "CMakeFiles/Picow-pi7.dir/pi7/trj_program/trj_program.c.obj"

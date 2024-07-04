@@ -88,4 +88,5 @@ src/CMakeFiles/Picow-pi7.dir/main.c.obj: \
  /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/command_interpreter/command_interpreter.h \
  /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_control/trj_control.h \
  /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_program/trj_program.h \
- /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_state/trj_state.h
+ /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_state/trj_state.h \
+ /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.h

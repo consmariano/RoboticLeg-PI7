@@ -1169,14 +1169,14 @@
 				{
 					"directoryIndex" : 82,
 					"id" : "ELF2UF2Build::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ELF2UF2Build-Debug-1ca3fdb268516f48a155.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-a510934b0950d58b5257.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 82,
 					"id" : "Picow-pi7::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Picow-pi7-Debug-85d6331259288d294c1d.json",
+					"jsonFile" : "target-Picow-pi7-Debug-ca80f67e2f005b7eb8ae.json",
 					"name" : "Picow-pi7",
 					"projectIndex" : 0
 				},

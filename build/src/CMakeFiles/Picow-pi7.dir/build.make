@@ -195,10 +195,24 @@ src/CMakeFiles/Picow-pi7.dir/pi7/trj_state/trj_state.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Picow-pi7.dir/pi7/trj_state/trj_state.c.s"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_state/trj_state.c -o CMakeFiles/Picow-pi7.dir/pi7/trj_state/trj_state.c.s
 
+src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
+src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.c
+src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj"
+	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj -MF CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj.d -o CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.c
+
+src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.i"
+	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.c > CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.i
+
+src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.s"
+	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.c -o CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.s
+
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -212,7 +226,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -226,7 +240,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -240,7 +254,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -254,7 +268,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -268,7 +282,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -281,7 +295,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -295,7 +309,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -309,7 +323,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -323,7 +337,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -337,7 +351,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -351,7 +365,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -365,7 +379,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -379,7 +393,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -393,7 +407,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -407,7 +421,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -421,7 +435,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -435,7 +449,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/common/pico
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -449,7 +463,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -463,7 +477,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -477,7 +491,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -491,7 +505,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -505,7 +519,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -518,7 +532,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -532,7 +546,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -546,7 +560,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -559,7 +573,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -573,7 +587,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -586,7 +600,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -599,7 +613,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -613,7 +627,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -627,7 +641,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -640,7 +654,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -653,7 +667,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -666,7 +680,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -680,7 +694,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -694,7 +708,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -707,7 +721,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -721,7 +735,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -734,7 +748,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -747,7 +761,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -761,7 +775,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -775,7 +789,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -789,7 +803,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -803,7 +817,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -817,7 +831,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -831,7 +845,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -845,7 +859,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -859,7 +873,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -873,7 +887,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -887,7 +901,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -901,7 +915,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -915,7 +929,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -929,7 +943,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -943,7 +957,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -957,7 +971,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -971,7 +985,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -985,7 +999,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -999,7 +1013,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1013,7 +1027,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1027,7 +1041,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1041,7 +1055,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1055,7 +1069,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1069,7 +1083,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1083,7 +1097,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1097,7 +1111,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1111,7 +1125,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1125,7 +1139,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/tinyusb/src
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1139,7 +1153,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1153,7 +1167,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -1167,7 +1181,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -1181,7 +1195,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -1195,7 +1209,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -1209,7 +1223,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -1223,7 +1237,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -1237,7 +1251,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-drive
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -1251,7 +1265,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-drive
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -1265,7 +1279,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-drive
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -1279,7 +1293,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/lib/cyw43-drive
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -1293,7 +1307,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -1307,7 +1321,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1321,7 +1335,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1335,7 +1349,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1349,7 +1363,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -1363,7 +1377,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -1377,7 +1391,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1391,7 +1405,7 @@ src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -1405,7 +1419,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -1419,7 +1433,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP20
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/croutine.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/croutine.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -1433,7 +1447,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/croutine.c.s: cmake_force
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/event_groups.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/event_groups.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -1447,7 +1461,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/event_groups.c.s: cmake_forc
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/list.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/list.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -1461,7 +1475,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/list.c.s: cmake_force
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/queue.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/queue.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -1475,7 +1489,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/queue.c.s: cmake_force
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/stream_buffer.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/stream_buffer.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -1489,7 +1503,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/stream_buffer.c.s: cmake_for
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/tasks.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/tasks.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -1503,7 +1517,7 @@ src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/tasks.c.s: cmake_force
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj: src/CMakeFiles/Picow-pi7.dir/flags.make
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj: /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/timers.c
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj: src/CMakeFiles/Picow-pi7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj"
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj.d -o CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.obj -c /home/consmariano/PicoW-pi7/PicoW-pi7/lib/FreeRTOS-Kernel/timers.c
 
 src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -1525,6 +1539,7 @@ Picow__pi7_OBJECTS = \
 "CMakeFiles/Picow-pi7.dir/pi7/trj_control/trj_control.c.obj" \
 "CMakeFiles/Picow-pi7.dir/pi7/trj_program/trj_program.c.obj" \
 "CMakeFiles/Picow-pi7.dir/pi7/trj_state/trj_state.c.obj" \
+"CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj" \
 "CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1633,6 +1648,7 @@ src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/pi7/command_interpreter/command_
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/pi7/trj_control/trj_control.c.obj
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/pi7/trj_program/trj_program.c.obj
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/pi7/trj_state/trj_state.c.obj
+src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/home/consmariano/PicoW-pi7/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1731,7 +1747,7 @@ src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/__/lib/FreeRTOS-Kernel/timers.c.
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/build.make
 src/Picow-pi7.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 src/Picow-pi7.elf: src/CMakeFiles/Picow-pi7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Linking CXX executable Picow-pi7.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/consmariano/PicoW-pi7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking CXX executable Picow-pi7.elf"
 	cd /home/consmariano/PicoW-pi7/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Picow-pi7.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-objcopy -Oihex /home/consmariano/PicoW-pi7/build/src/Picow-pi7.elf Picow-pi7.hex
 	cd /home/consmariano/PicoW-pi7/build/src && /usr/bin/arm-none-eabi-objcopy -Obinary /home/consmariano/PicoW-pi7/build/src/Picow-pi7.elf Picow-pi7.bin

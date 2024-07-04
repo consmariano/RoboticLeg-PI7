@@ -1,6 +1,6 @@
-src/CMakeFiles/Picow-pi7.dir/pi7/trj_program/trj_program.c.obj: \
- /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_program/trj_program.c \
- /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_program/trj_program.h \
+src/CMakeFiles/Picow-pi7.dir/pi7/gcode_parser/gcode_parser.c.obj: \
+ /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.c \
+ /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/gcode_parser/gcode_parser.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -20,5 +20,4 @@ src/CMakeFiles/Picow-pi7.dir/pi7/trj_program/trj_program.c.obj: \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
- /home/consmariano/PicoW-pi7/PicoW-pi7/src/pi7/trj_program/../gcode_parser/gcode_parser.h
+ /usr/include/newlib/sys/string.h
